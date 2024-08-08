@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEF3E2;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border: 3px;
+    border-color:  #FAAF08;
+    padding: 20px;
+}
+
+/* Estilos para los combos */
+.combos-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.combo {
+    display: flex;
+    width: 45%;
+    margin: 10px;
+    vertical-align: top;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.combo:last-child {
+    border-bottom: none;
+}
+
+.combo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.combo h2 {
+    color: black;
+    text-align: center;
+}
+
+.combo p {
+    font-size: 14px;
+}
+
+.elZarapelet {
+    margin-bottom: 40px;
+    text-align: center; 
+    font-size: 36px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border-rojo {
+    border-bottom: 50px solid #FA0432;
+    margin-bottom: 20px;
+}
+
+.btn-modificar {
+    background-color: #FAAF08; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-modificar:hover {
+    background-color: #FAAF08; 
+}
+
+.combo .descripcion {
+    flex: 1;
+}
+
+.combo .descripcion p {
+    margin-bottom: 10px;
+}
+
+.combo .descripcion strong {
+    font-weight: bold;
+}

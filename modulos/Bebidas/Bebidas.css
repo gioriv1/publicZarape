@@ -1,0 +1,253 @@
+body {
+  background-color: #fff;
+}
+
+.sidebar {
+  background-color: #e31b1b;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar .btn {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  background-color: #e31b1b;
+  border: none;
+  margin: 15px 0;
+}
+
+.sidebar .btn:hover {
+  background-color: #b71a1a;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+.view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.titulo {
+  padding: 20px 10px 20px;
+  text-align: center;
+  background-color: #faaf08;
+  color: white;
+  max-width: 350px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btnAgregar {
+  background-color: #faaf08;
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 22px;
+  width: 150px;
+}
+
+.inputBusqueda {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 7px;
+}
+
+.inputBusqueda input {
+  margin: 5px;
+  border: none;
+}
+
+.encabezados {
+  background-color: #faaf08;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.encabezados:nth-child(1) {
+  min-width: 15%;
+}
+
+.encabezados:nth-child(2) {
+  min-width: 31%;
+}
+
+.encabezados:nth-child(3) {
+  min-width: 20%;
+}
+
+.encabezados:nth-child(4) {
+  min-width: 15%;
+}
+
+.cuerpo {
+  font-size: 15px;
+  text-align: center;
+}
+
+table,#tabla {
+  width: 100%;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Índice Z para que esté encima de todo */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Alto completo */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+}
+
+.modal-contenido {
+  background-color: #fff; /* Fondo blanco */
+  margin: 15% auto; /* Margen superior e inferior */
+  border: 1px solid #ccc; /* Borde */
+  width: 60%; /* Ancho */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.modal-contenido h2{
+    color: white;
+    text-align: center;
+    background-color: #FA0432;
+}
+
+.boton-icono {
+  background-color: transparent; 
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.boton-icono img {
+  width: 30px;
+  height: 30px;
+}
+
+#actions{
+    gap: 1rem;
+    padding: 5px;
+}
+
+.modal-contenido #formulario{
+    text-align: center;
+    border-top: black 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-content {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a b c e e"
+    "d d d e e"
+    "d d d e e";
+}
+
+#form-content input,select,textarea{
+  border: 2px black solid;
+  border-radius: 15px;
+  padding: 2px;
+  padding-left: 1rem;
+}
+
+#form-content input::placeholder,textarea::placeholder{
+  color: #000;
+  vertical-align: middle;
+}
+
+#form-content input:focus{
+  padding-left: 1rem;
+}
+
+#group-nombre{
+  grid-area: a;
+}
+
+#group-precio{
+  grid-area: b;
+}
+
+#group-categoria{
+  grid-area: c;
+}
+
+#group-descripcion{
+  grid-area: d;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+}
+
+#imageBebida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  grid-area: e;
+}
+
+#imageBebida img{
+  width: 13rem;
+}
+
+#form-content div {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-content label {
+  margin-bottom: 0.5rem;
+}
+
+.btn-icon{
+  background: transparent;
+  border: none;
+}
+
+.btn-icon img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.invisible{
+  display: none;
+}

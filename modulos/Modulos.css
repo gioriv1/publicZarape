@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+}
+
+.sidebar {
+    background-color: #e31b1b;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .btn {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    background-color: #e31b1b;
+    border: none;
+    margin: 15px 0;
+}
+
+.sidebar .btn:hover {
+    background-color: #b71a1a;
+}
+
+
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}

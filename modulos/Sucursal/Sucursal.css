@@ -1,0 +1,185 @@
+body {
+    background-color: #fff;
+}
+
+.sidebar {
+    background-color: #e31b1b;
+    height: 100vh;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.sidebar .btn {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    background-color: #e31b1b;
+    border: none;
+    margin: 15px 0;
+}
+
+.sidebar .btn:hover {
+    background-color: #b71a1a;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.logo-small {
+    max-width: 60px;
+}
+
+.main-content {
+    margin-left: 200px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main-content .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 0;
+}
+
+.search-bar {
+    width: 300px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-body p {
+    margin: 10px 0;
+}
+
+.branch-id {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.location-info {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hours-info {
+    margin-top: 10px;
+}
+
+.stars {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sucursal-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.sucursal-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sucursal-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+button.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+button.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.5);
+}
+
+button.btn-secondary {
+    background-color: #6c757d;
+}
+
+button.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+button.btn-primary {
+    background-color: #007bff;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+button.btn-warning {
+    background-color: #ffc107;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+button.btn-info {
+    background-color: #17a2b8;
+}
+
+button.btn-info:hover {
+    background-color: #138496;
+}
+
+button.disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
